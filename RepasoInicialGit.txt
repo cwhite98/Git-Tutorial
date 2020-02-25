@@ -1,0 +1,38 @@
+Repaso Git
+
+1. Crear un nuevo repositorio local.
+	$ mkdir <carpeta>
+	$ cd <carpeta>
+	$ git init
+2. Crear 4 archivos.
+3. Verificar la configuración global de git.
+	$ git config --list --show-origin
+4. Configurar el nombre y correo para git si no se ha realizado.
+	$ git config --global user.name "<nombre>"
+	$ git config --global user.email "<email>"
+5. Verificar que archivos han sido creados o modificados.
+	$ git status
+6. Añadir los archivos. 
+	$ git add .
+7. Eliminar uno de los archivos de manera forzada.
+	$ git rm -f <archivo>
+8. Eliminar otro de los archivos del Staging Area.
+	$ git rm --cached <archivo>
+9. Verificar cuales archivos han sido creados o modificados.
+	$ git status
+10. Realizar un commit.
+	$ git commit -m "<mensaje>"
+11. Verificar que commits se han realizado.
+	$ git log
+12. Realizar dos commits más con los cambios que se deseen.
+13. Volver al commit inicial de manera temporal.
+	$ git checkout <id commit>
+14. Volver al último commit realizado.
+	$ git checkout master
+15. Volver al commit anterior.
+	$ git revert <id commit actual>
+16. Verificar los commits realizados.
+	$ git log
+17. Revertir lo que se realizó en el punto 14.
+	$ git checkout master
+	$ git revert <id revert>
