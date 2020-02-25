@@ -1,0 +1,12 @@
+Repaso Git con Interfaz de Visual Studio Code y GitHub
+
+1. Clonar el repositorio de la clase anterior.
+	$ git clone <url repositorio>
+2. Abrir Visual Studio Code.
+3. Abrir la terminal.
+	Control + ñ
+4. Subir un archivo desde la rama master.
+5. Crear una rama desde la terminal.
+	$ git checkout -b <branch>
+6. Subir un archivo desde esta rama.
+7. 
