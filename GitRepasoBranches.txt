@@ -1,0 +1,23 @@
+Repaso Git Branches
+
+
+Partir del repositorio realizado en la clase anterior.
+
+1. Crear una rama y pasarse a esta con el mismo comando.
+	$ git checkout -b <branch>
+2. Crear 2 archivos nuevos.
+3. Añadir los archivos y hacer commit.
+	$ git add .
+	$ git commit -m "<mensaje>"
+4. Volver a la rama master.
+	$ git checkout master
+5. Crear un nuevo archivo, diferente a los creados en la rama nueva.
+6. Añadir el archivo y hacer commit.
+	$ git add .
+	$ git commit -m "<mensaje>"
+7. Verificar que el working tree está limpio, es decir, que no se tenga nada por añadir ni por hacer commit.
+	$ git status
+8. Hager merge, donde en Master quede la información tando de esta como de la nueva rama.
+	$ git merge <branch>
+9. Verificar que commits se han realizado. 
+	$ git log
