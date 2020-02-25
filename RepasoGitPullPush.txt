@@ -1,0 +1,16 @@
+Repaso Git Pull y Push
+
+1. Crear un repositorio local.
+	$ git init
+2. Hacer 2 commits. 
+3. Crear un repositorio vacío en GitHub.
+4. Unir los repositorios.
+	$ git remote add origin <url repo GitHub>
+5. Verificar la conexión.
+	$ git remote -v 
+6. Hacer un nuevo commit en el repositorio local.
+7. Subir los cambios al repositorio remoto. 
+	$ git push
+8. Realizar cambios en el repositorio remoto.
+9. Obtener los cambios en el repositorio local.
+	$ git pull 
