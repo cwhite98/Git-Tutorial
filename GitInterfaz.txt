@@ -1,4 +1,4 @@
-Repaso
+Repaso Git con Interfaz de Visual Studio Code y GitHub
 
 1. Clonar el repositorio de la clase anterior.
 	$ git clone <url repositorio>
@@ -16,6 +16,3 @@ Repaso
 10. Crear un archivo y subirlo a GitHub. 
 11. Hacer merge entre master y la nueva rama. 
 12. En Visual Studio hacer git pull. 
-13. 
-14. 
-15.
