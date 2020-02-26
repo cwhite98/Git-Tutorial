@@ -1,4 +1,4 @@
-Repaso Git con Interfaz de Visual Studio Code y GitHub
+Repaso
 
 1. Clonar el repositorio de la clase anterior.
 	$ git clone <url repositorio>
